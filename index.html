@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dronee</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://use.fontawesome.com/56848991f1.js"></script>
+</head>
+<body >
+    <header>
+    <section id="home">
+<nav>
+    <div class="logo">   <a href="" target="_blank"><h1>Dronee</h1></a></div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+ 
+    <div class="mobile-nav " id="menu-box">
+        <ul>
+        <li><a href="#home" target="_blank">Home</a></li>
+        <li><a href="#about"target="about">About</a></li>
+        <li><a href="#download"target="_blank">Download</a></li>
+        <li><a href="#contact"target="_blank">Contact</a></li>
+    </ul>
+    </div>
+
+
+
+
+
+
+    <div class="burger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</nav>
+
+
+
+<div class="grid-2">
+    <div class="text-container">
+        <div class="h1-container"> <!----container-for -responsiveness -->
+        <h1>Fly REAL Drones.</h1>
+        <h1>From Everywhere.</h1>
+        <h1>Anytime</h1>
+
+       
+        <h4 class="h4-app">Get the app now and start flying...</h4>
+    </div> <!----container-end-for -responsiveness -->
+  
+<div class="flex-img-store">
+    <div class="img-small">
+        <a href="" target="_blank">
+            <img src="pngkit_app-store-icon-png_2352097.png">
+
+    </a>
+    </div>
+    <div class="img-small2">
+        <a href="" target="_blank">
+        <img src="pngkey.com-download-on-app-store-3436379.png">
+    </a>
+    </div>
+</div>
+    
+    
+   
+</div>
+
+<div class="right-container-img">
+<img src="drne.png">
+
+    <div class="video">
+    
+      <div class="screen">
+
+        <video autoplay  muted src="My Video4.webm" id="video"> </video>
+   
+      </div>
+    </div>
+</div>
+</div>
+
+ 
+</div>
+</section>
+ </header>
+        <main>
+            <section id="about">
+                <div class="flex-clm-text">
+                    <h1 class="golden-h1">What is Dronee?</h1>
+                    <div class="pra-container">
+                        <p>Dronee is a real live 24/7 Drones Flying</p>
+                        platform offering you one of a kind entertainment experience. 
+                        Fly a drone without leaving the comfort of your couch!
+
+                    </div>
+
+            <div class="pra-container">
+                    <p>
+                            Control real drones from your app while we 
+                            live stream to you both the drone's surroundings
+                            and its camera output.
+                     </p>                 
+            </div>
+<p>want to try? it us very simple...</p>
+<p>1. Download our app</p>
+<p>2. Choose the drone and challenge  or theme </p>
+<p>3. Enjoy </p>
+<br><br>
+<p>Fly a drone. From Everywhere. Anytime.</p>
+
+                </div>
+            </section>
+
+
+            <section class="dark-bg" id="download">
+               
+                <div class="grid-2-2nd">
+                    <div class="left-img">
+                        <h1 class="golden-h1">Download our app and start flying...</h1>
+                        <img src="2ndscrren copy.png">
+                    </div>
+   <div class="right-link-img">
+                        <p>Find it on the relevent store</p>
+                       
+                            <div class="img-small-2nd">
+                                <img src="pngkit_app-store-icon-png_2352097.png">
+                            </div>
+                            <div class="img-small-2nd">
+                                <img src="pngkey.com-download-on-app-store-3436379.png">
+                                
+                    </div>
+               
+                </div>
+            </section>
+
+            <section class="light-bg" id="contact">
+                <div class="flex-text-contact">
+                    <h1 class="golden-h1"> want to tell us something? Let us know!</h1>
+                </div>
+                <div class="grid-2-contact">
+                    <!-- <form action=""> -->
+                    <div class="flex-clm-input">
+                        <input type="text" placeholder="  Name">
+                        <br>
+                        <input type="email" placeholder="  Email">
+                        <br>
+                        <input type="tel" placeholder="  Number">
+                    </div>
+<div class="message">
+ <input type="text" placeholder="What do you want to say?" id="msg">
+    <button class="contact-btn" type="submit">Send</button>
+</div>
+<!-- 
+</form> -->
+
+                </div>
+            </section> 
+
+
+
+
+
+        </main>
+
+<footer>
+    <section>
+        <div class="footer-nav">
+        <div class="copy">
+&copy;2022 Droone - All rights reserved
+        </div>
+<div class="icon">
+    
+    <a href="">
+    
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+</a>
+
+<a href="">
+    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+</a>
+
+
+<a href="">
+
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+</a>
+
+<a href="">
+    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+</a>
+
+</div>
+</div>
+        
+    </section>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+ 
+<script>
+    function toggleMenu() {
+      var menuBox = document.getElementById('menu-box');    
+      if(menuBox.style.display == "block" ) { // if is menuBox displayed, hide it
+        menuBox.style.display = "none";
+      }
+      else { // if is menuBox hidden, display it
+        menuBox.style.display = "block";
+      }
+    }
+    </script>
+  
+    </script>
+
+</body>
+</html>
